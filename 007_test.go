@@ -1,13 +1,13 @@
-package main
+package euler
 
 import "testing"
 
 func TestProblem7(t *testing.T) {
-	out := problem_7()
+	out := Problem7()
 	expected := 104743
 
 	if out != expected {
-		t.Errorf("problem_7() = %d, should be %d", out, expected)
+		t.Errorf("Problem7() = %d, should be %d", out, expected)
 	}
 
 }

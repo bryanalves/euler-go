@@ -1,8 +1,8 @@
 // https://projecteuler.net/problem=5
 
-package main
+package euler
 
-func problem_5() int {
+func Problem5() int {
 	ret := lcm(1, 2)
 
 	for i := 3; i <= 20; i++ {

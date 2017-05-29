@@ -1,8 +1,8 @@
 // https://projecteuler.net/problem=2
 
-package main
+package euler
 
-func problem_2() int {
+func Problem2() int {
 	fib_gen := fibonacci()
 	acc, fib_current := 0, 0
 

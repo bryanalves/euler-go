@@ -1,8 +1,8 @@
 // https://projecteuler.net/problem=3
 
-package main
+package euler
 
-func problem_3(composite int) int {
+func Problem3(composite int) int {
 	factor := 2
 
 	for composite > 2 {

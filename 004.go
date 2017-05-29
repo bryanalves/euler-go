@@ -1,10 +1,10 @@
 // https://projecteuler.net/problem=4
 
-package main
+package euler
 
 import "strconv"
 
-func problem_4() int {
+func Problem4() int {
 	max := 1
 
 	var product int

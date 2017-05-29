@@ -1,10 +1,10 @@
 // https://projecteuler.net/problem=7
 
-package main
+package euler
 
 import "math"
 
-func problem_7() int {
+func Problem7() int {
 	x := 0
 	ch := make(chan int)
 	go prime_generate(ch)

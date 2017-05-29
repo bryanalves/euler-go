@@ -1,8 +1,8 @@
 // https://projecteuler.net/problem=6
 
-package main
+package euler
 
-func problem_6() int {
+func Problem6() int {
 	return square_sums(100) - sum_squares(100)
 }
 

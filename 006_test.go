@@ -1,4 +1,4 @@
-package main
+package euler
 
 import "testing"
 
@@ -13,10 +13,10 @@ func TestProblem6(t *testing.T) {
 		t.Errorf("square_sums fails: %d", x)
 	}
 
-	out := problem_6()
+	out := Problem6()
 	expected := 25164150
 
 	if out != expected {
-		t.Errorf("problem_6() = %d, should be %d", out, expected)
+		t.Errorf("Problem6() = %d, should be %d", out, expected)
 	}
 }
