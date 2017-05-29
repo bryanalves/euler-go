@@ -3,15 +3,15 @@
 package main
 
 func problem_3(composite int) int {
-    factor := 2
+	factor := 2
 
-    for composite > 2 {
-        if (composite % factor) == 0 {
-            composite /= factor
-        } else {
-            factor++
-        }
-    }
+	for composite > 2 {
+		if (composite % factor) == 0 {
+			composite /= factor
+		} else {
+			factor++
+		}
+	}
 
-    return factor
+	return factor
 }
